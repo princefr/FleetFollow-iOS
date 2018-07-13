@@ -7,9 +7,9 @@
 //
 
 import Foundation
+import Firebase
 import FirebaseDatabase
 import FirebaseAuth
-import Firebase
 import GeoFire
 import CoreLocation
 
@@ -17,7 +17,7 @@ import CoreLocation
 
 
 
-private class User {
+public class User {
     var firstname: String ;
     var lastname: String ;
     var phoneNumber: String;
@@ -56,7 +56,7 @@ private class User {
 
 public class FleetFollow {
     
-    init(apiKey: String){
+   init(apiKey: String){
         if(apiKey.isEmpty){
             
         }else{
@@ -152,6 +152,11 @@ public class FleetFollow {
         // initially set the format based on your datepicker date / server String
         formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
         return formatter.string(from: date)
+    }
+    
+    
+    public func Print(data: String){
+        print(data)
     }
     
     
