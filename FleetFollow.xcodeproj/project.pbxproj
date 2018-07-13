@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FF34D3069D118C7A42CA8A0 /* Pods_FleetFollowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8674D38B6E4BDCBF1E81810 /* Pods_FleetFollowTests.framework */; };
+		601338D105DE5AECDC4A535D /* Pods_FleetFollow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45544932D2DD4245D11E650C /* Pods_FleetFollow.framework */; };
+		BB44F4FB20F79320001D5656 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB44F4FA20F79320001D5656 /* GoogleService-Info.plist */; };
 		BB6533D720F76076002E6F3C /* FleetFollow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6533CD20F76075002E6F3C /* FleetFollow.framework */; };
 		BB6533DC20F76076002E6F3C /* FleetFollowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6533DB20F76076002E6F3C /* FleetFollowTests.swift */; };
 		BB6533DE20F76076002E6F3C /* FleetFollow.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6533D020F76075002E6F3C /* FleetFollow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6533E820F7815E002E6F3C /* FleetFollow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6533E720F7815E002E6F3C /* FleetFollow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +27,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		210A182EB9FD03D84B017FA2 /* Pods-FleetFollowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleetFollowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FleetFollowTests/Pods-FleetFollowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2312B41362A32C1C7BE58F7D /* Pods-FleetFollow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleetFollow.release.xcconfig"; path = "Pods/Target Support Files/Pods-FleetFollow/Pods-FleetFollow.release.xcconfig"; sourceTree = "<group>"; };
+		45544932D2DD4245D11E650C /* Pods_FleetFollow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FleetFollow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A739E1631CB5D5026B8B0D7 /* Pods-FleetFollow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleetFollow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FleetFollow/Pods-FleetFollow.debug.xcconfig"; sourceTree = "<group>"; };
+		BB44F4FA20F79320001D5656 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BB6533CD20F76075002E6F3C /* FleetFollow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FleetFollow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB6533D020F76075002E6F3C /* FleetFollow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FleetFollow.h; sourceTree = "<group>"; };
 		BB6533D120F76075002E6F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB6533D620F76076002E6F3C /* FleetFollowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleetFollowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB6533DB20F76076002E6F3C /* FleetFollowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetFollowTests.swift; sourceTree = "<group>"; };
 		BB6533DD20F76076002E6F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB6533E720F7815E002E6F3C /* FleetFollow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetFollow.swift; sourceTree = "<group>"; };
+		EB2CBDD254B0268BDCC22A6D /* Pods-FleetFollowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleetFollowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FleetFollowTests/Pods-FleetFollowTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8674D38B6E4BDCBF1E81810 /* Pods_FleetFollowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FleetFollowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				601338D105DE5AECDC4A535D /* Pods_FleetFollow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +57,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB6533D720F76076002E6F3C /* FleetFollow.framework in Frameworks */,
+				3FF34D3069D118C7A42CA8A0 /* Pods_FleetFollowTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BAD90B613CF6A066D9A8392 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A739E1631CB5D5026B8B0D7 /* Pods-FleetFollow.debug.xcconfig */,
+				2312B41362A32C1C7BE58F7D /* Pods-FleetFollow.release.xcconfig */,
+				210A182EB9FD03D84B017FA2 /* Pods-FleetFollowTests.debug.xcconfig */,
+				EB2CBDD254B0268BDCC22A6D /* Pods-FleetFollowTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0BD3CA2AE4B98F17EDF6E9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45544932D2DD4245D11E650C /* Pods_FleetFollow.framework */,
+				F8674D38B6E4BDCBF1E81810 /* Pods_FleetFollowTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BB6533C320F76075002E6F3C = {
 			isa = PBXGroup;
 			children = (
 				BB6533CF20F76075002E6F3C /* FleetFollow */,
 				BB6533DA20F76076002E6F3C /* FleetFollowTests */,
 				BB6533CE20F76075002E6F3C /* Products */,
+				7BAD90B613CF6A066D9A8392 /* Pods */,
+				A0BD3CA2AE4B98F17EDF6E9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +109,8 @@
 			children = (
 				BB6533D020F76075002E6F3C /* FleetFollow.h */,
 				BB6533D120F76075002E6F3C /* Info.plist */,
+				BB44F4FA20F79320001D5656 /* GoogleService-Info.plist */,
+				BB6533E720F7815E002E6F3C /* FleetFollow.swift */,
 			);
 			path = FleetFollow;
 			sourceTree = "<group>";
@@ -104,6 +142,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB6533E120F76076002E6F3C /* Build configuration list for PBXNativeTarget "FleetFollow" */;
 			buildPhases = (
+				872044F828ABD21B7FFF95C0 /* [CP] Check Pods Manifest.lock */,
 				BB6533C820F76075002E6F3C /* Sources */,
 				BB6533C920F76075002E6F3C /* Frameworks */,
 				BB6533CA20F76075002E6F3C /* Headers */,
@@ -122,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB6533E420F76076002E6F3C /* Build configuration list for PBXNativeTarget "FleetFollowTests" */;
 			buildPhases = (
+				5137ED98CECB035D4FE5DAD8 /* [CP] Check Pods Manifest.lock */,
 				BB6533D220F76076002E6F3C /* Sources */,
 				BB6533D320F76076002E6F3C /* Frameworks */,
 				BB6533D420F76076002E6F3C /* Resources */,
+				DE010FDC1F06357D54263B82 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +189,7 @@
 				TargetAttributes = {
 					BB6533CC20F76075002E6F3C = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0930;
 					};
 					BB6533D520F76076002E6F3C = {
 						CreatedOnToolsVersion = 9.3.1;
@@ -177,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB44F4FB20F79320001D5656 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,11 +232,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5137ED98CECB035D4FE5DAD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FleetFollowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		872044F828ABD21B7FFF95C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FleetFollow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE010FDC1F06357D54263B82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FleetFollowTests/Pods-FleetFollowTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GeoFire/GeoFire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GeoFire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FleetFollowTests/Pods-FleetFollowTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BB6533C820F76075002E6F3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB6533E820F7815E002E6F3C /* FleetFollow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +447,9 @@
 		};
 		BB6533E220F76076002E6F3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A739E1631CB5D5026B8B0D7 /* Pods-FleetFollow.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -356,6 +467,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fr.fleetfollow.ios.FleetFollow;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,7 +475,9 @@
 		};
 		BB6533E320F76076002E6F3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2312B41362A32C1C7BE58F7D /* Pods-FleetFollow.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -388,7 +502,9 @@
 		};
 		BB6533E520F76076002E6F3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 210A182EB9FD03D84B017FA2 /* Pods-FleetFollowTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BX74847SPV;
 				INFOPLIST_FILE = FleetFollowTests/Info.plist;
@@ -406,7 +522,9 @@
 		};
 		BB6533E620F76076002E6F3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB2CBDD254B0268BDCC22A6D /* Pods-FleetFollowTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BX74847SPV;
 				INFOPLIST_FILE = FleetFollowTests/Info.plist;
