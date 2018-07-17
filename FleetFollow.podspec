@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FleetFollow"
-  s.version      = "0.1.0"
+  s.version      = "0.1.2"
   s.summary      = "Fleetfollow is a framework that is able to locate users of your applications in real time"
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ s.description  = "Fleetfollow is a realtime location framework for your software
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/princefr/FleetFollow.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/princefr/FleetFollow.git", :tag => "0.1.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
