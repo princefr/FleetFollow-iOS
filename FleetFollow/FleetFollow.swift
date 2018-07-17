@@ -14,9 +14,6 @@ import GeoFire
 import CoreLocation
 
 
-
-
-
 public class User {
     var firstname: String ;
     var lastname: String ;
@@ -54,9 +51,9 @@ public class User {
 }
 
 
-public class FleetFollow {
+open class FleetFollow {
     
-   init(apiKey: String){
+   public init(apiKey: String){
         if(apiKey.isEmpty){
             
         }else{
@@ -89,7 +86,7 @@ public class FleetFollow {
         }
     }
     
-    private func LoginUser() {
+    open func LoginUser() {
         Auth.auth().signInAnonymously() {
             (authResult, error) in
             if (error != nil) {
@@ -155,8 +152,9 @@ public class FleetFollow {
     }
     
     
-    public func Print(data: String){
+    public static func Print(data: String) -> String{
         print(data)
+        return data;
     }
     
     
