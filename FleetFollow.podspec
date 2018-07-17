@@ -62,8 +62,9 @@ s.description  = "Fleetfollow is a realtime location framework for your software
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-    s.platform     = :ios, "12.0"
+#s.platform     = :ios, "12.0"
   # s.platform     = :ios, "9.0"
+#s.ios.deployment_target = '11.3'
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
