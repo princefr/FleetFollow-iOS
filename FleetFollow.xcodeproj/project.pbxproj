@@ -14,7 +14,6 @@
 		BB6533DC20F76076002E6F3C /* FleetFollowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6533DB20F76076002E6F3C /* FleetFollowTests.swift */; };
 		BB6533DE20F76076002E6F3C /* FleetFollow.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6533D020F76075002E6F3C /* FleetFollow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB6533E820F7815E002E6F3C /* FleetFollow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6533E720F7815E002E6F3C /* FleetFollow.swift */; };
-		BBD73D4B20FE06AE0051C519 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD73D4A20FE06AE0051C519 /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +39,6 @@
 		BB6533DB20F76076002E6F3C /* FleetFollowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetFollowTests.swift; sourceTree = "<group>"; };
 		BB6533DD20F76076002E6F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB6533E720F7815E002E6F3C /* FleetFollow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetFollow.swift; sourceTree = "<group>"; };
-		BBD73D4A20FE06AE0051C519 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		EB2CBDD254B0268BDCC22A6D /* Pods-FleetFollowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleetFollowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FleetFollowTests/Pods-FleetFollowTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8674D38B6E4BDCBF1E81810 /* Pods_FleetFollowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FleetFollowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -113,7 +111,6 @@
 				BB6533D120F76075002E6F3C /* Info.plist */,
 				BB44F4FA20F79320001D5656 /* GoogleService-Info.plist */,
 				BB6533E720F7815E002E6F3C /* FleetFollow.swift */,
-				BBD73D4A20FE06AE0051C519 /* Test.swift */,
 			);
 			path = FleetFollow;
 			sourceTree = "<group>";
@@ -307,7 +304,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB6533E820F7815E002E6F3C /* FleetFollow.swift in Sources */,
-				BBD73D4B20FE06AE0051C519 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
