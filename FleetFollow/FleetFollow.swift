@@ -51,7 +51,7 @@ public class User {
 }
 
 
-open class FleetFollow {
+open class FleetFollowSDK {
     
    public init(apiKey: String){
         if(apiKey.isEmpty){
