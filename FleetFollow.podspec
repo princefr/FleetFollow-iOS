@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FleetFollow"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "Fleetfollow is a framework that is able to locate users of your applications in real time"
 
   # This description is used to generate tags and improve search results.
@@ -62,7 +62,7 @@ s.description  = "Fleetfollow is a realtime location framework for your software
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-#s.platform     = :ios, "12.0"
+    s.platform     = :ios, "11.0"
   # s.platform     = :ios, "9.0"
 #s.ios.deployment_target = '11.3'
 
@@ -79,7 +79,7 @@ s.description  = "Fleetfollow is a realtime location framework for your software
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/princefr/FleetFollow.git", :tag => "0.1.2" }
+  s.source       = { :git => "https://github.com/princefr/FleetFollow.git", :tag => "0.1.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,8 +90,8 @@ s.description  = "Fleetfollow is a realtime location framework for your software
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "FleetFollow/**/*"
-#s.exclude_files = "Classes/Exclude"
+  s.source_files  = "FleetFollow/**/*", "FleetFollow/*.swift"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -118,13 +118,13 @@ s.description  = "Fleetfollow is a realtime location framework for your software
 
   # s.framework  = "SomeFramework"
     s.frameworks = "CoreLocation"
-s.dependency 'Firebase'
-s.dependency 'Firebase/Core'
-s.dependency 'Firebase/Database'
-s.dependency 'Firebase/Auth'
-s.dependency 'GeoFire'
-s.dependency 'GTMSessionFetcher'
-s.dependency 'nanopb'
+    s.dependency 'Firebase'
+    s.dependency 'Firebase/Core'
+    s.dependency 'Firebase/Database'
+    s.dependency 'Firebase/Auth'
+    s.dependency 'GeoFire'
+    s.dependency 'GTMSessionFetcher'
+    s.dependency 'nanopb'
 
 s.pod_target_xcconfig = {
 'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/Firebase $(PODS_ROOT)/FirebaseCore/Frameworks $(PODS_ROOT)/FirebaseDatabase/Frameworks $(PODS_ROOT)/FirebaseInstanceID/Frameworks $(PODS_ROOT)/FirebaseAnalytics/Frameworks $(PODS_ROOT)/GTMSessionFetcher $(PODS_ROOT)/nanopb'

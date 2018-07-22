@@ -49,7 +49,7 @@ DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
-  - GeoFire
+  - GeoFire (>= 1.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -78,6 +78,6 @@ SPEC CHECKSUMS:
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
 
-PODFILE CHECKSUM: 64f2f029bcd3068c0fa3f205b296ac9968519b28
+PODFILE CHECKSUM: ab8476deea4630cd535eb74d857587c26bb7ee6e
 
 COCOAPODS: 1.5.3
